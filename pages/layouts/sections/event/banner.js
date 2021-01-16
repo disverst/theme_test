@@ -19,9 +19,9 @@ const Banner = ({router}) => {
                             <div className="center-text">
                                 <div className="text-center w-100">
                                     <div className="h1-margin">
-                                        <h1>come <span className="typed">
+                                        <h1>Web <span className="typed">
                                             <Typed
-                                                strings={['Unice']}
+                                                strings={['Delnica']}
                                                 typeSpeed={80}
                                                 backSpeed={50}
                                                 showCursor={false}
@@ -55,7 +55,7 @@ const Banner = ({router}) => {
                 </Container>
             </div>
 
-            {router.pathname !== '/elements/count-down' ? 
+            {router.pathname !== '/elements/count-down' ?
             <div className="set-bottom set-abs">
                 <a className="center-content down" onClick={()=>scrollToRef('booking')} >
                     <img alt="" className="scroll-down" src="/assets/images/event/image-down.png" />
