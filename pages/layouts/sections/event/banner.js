@@ -19,14 +19,18 @@ const Banner = ({router}) => {
                             <div className="center-text">
                                 <div className="text-center w-100">
                                     <div className="h1-margin">
-                                        <h1>Web <span className="typed">
-                                            <Typed
-                                                strings={['Delnica']}
-                                                typeSpeed={80}
-                                                backSpeed={50}
-                                                showCursor={false}
-                                                loop >
-                                            </Typed></span></h1>
+                                        <h1>
+                                            Web
+                                            <span className="typed">
+                                                <Typed
+                                                    strings={['Delnica']}
+                                                    typeSpeed={80}
+                                                    backSpeed={50}
+                                                    showCursor={false}
+                                                    loop >
+                                                </Typed>
+                                            </span>
+                                        </h1>
                                     </div>
                                     <div className="wedding-time">
                                         <div>

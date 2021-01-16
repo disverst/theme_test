@@ -7,7 +7,7 @@ const About = () => (
                 <Col md="10" className="offset-md-1">
                     <div className="title title3 only-title">
                         <div className="main-title">
-                            <h2 className=" text-white">About event</h2>
+                            <h2 className=" text-white">О нас</h2>
                         </div>
                     </div>
                 </Col>
@@ -25,19 +25,20 @@ const About = () => (
                     <div className="abouts center-text">
                         <div className="format">
                             <div className="format-small-text">
-                                <h6 className="text-white borders-before text-uppercase"><span>event progress</span></h6>
+                                <h6 className="text-white borders-before text-uppercase"><span>Первая православная Веб-Студия</span></h6>
                             </div>
                             <div className="format-head-text">
-                                <h3 className="about-font-header text-white">Welcome To Business Meeting 2020</h3>
+                                <h3 className="about-font-header text-white">
+                                    Web программирование и разработка сайтов
+                                </h3>
                             </div>
                             <div className="format-sub-text">
-                                <p className="about-para">Lorem Ipsum is simply dummy text of the printing and
-                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
-                                    the 1500s</p>
-                                <p className="about-para">When an unknown printer took a galley of type and scrambled it
-                                to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and
-                                typesetting
-                                    industry. Lorem Ipsum has been the industry's</p>
+                                <p className="about-para">
+                                    Разработка и сопровождение специализированных веб ресурсов, интернет сайтов, Сопровождение и дальнейшее обслуживание.
+                                </p>
+                                <p className="about-para">Создание интернет магазина, для продажи богословских книг, икон и другой церковной утвари. Также предоставить возможность пользователям оставить поминальную записку или заказать молебен, перечислить пожертвования по интернету.
+                                </p>
+
                             </div>
                             <a className="btn btn-default " href="#">read more</a>
                         </div>
