@@ -40,7 +40,7 @@ const About = () => (
                                 </p>
 
                             </div>
-                            <a className="btn btn-default " href="#">read more</a>
+                            <a className="btn btn-default " href="#">Узнать больше</a>
                         </div>
                     </div>
                 </Col>
