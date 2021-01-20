@@ -12,7 +12,7 @@ import "../public/assets/scss/color-1.scss"
 import '../public/assets/scss/themify.scss';
 import "../public/assets/scss/slick.scss";
 import "../public/assets/scss/slick-theme.scss";
-import Customizer from '../containers/customizer';
+
 
 
 const { publicRuntimeConfig = {} } = getConfig() || {};
@@ -41,7 +41,7 @@ function MyFunctionComponent({ children }) {
       setLoader(false)
     }, 1500)
 
-    // Tap to Top Scroll 
+    // Tap to Top Scroll
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
       if (currentScrollY > 500)
@@ -93,7 +93,6 @@ export default function MyApp({ Component, pageProps, graphql }) {
     <div>
       <MyFunctionComponent>
         <Component {...pageProps} />
-        <Customizer />
       </MyFunctionComponent>
       <ToastContainer />
     </div>

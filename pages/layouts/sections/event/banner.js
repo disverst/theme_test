@@ -32,13 +32,13 @@ const Banner = ({router}) => {
                                             </span>
                                         </h1>
                                     </div>
-                                    <div className="wedding-time">
-                                        <div>
-                                            <div className="event-countdown">
-                                                <CountdownComponent />
-                                            </div>
-                                        </div>
-                                    </div>
+                                    {/*<div className="wedding-time">*/}
+                                    {/*    <div>*/}
+                                    {/*        <div className="event-countdown">*/}
+                                    {/*            <CountdownComponent />*/}
+                                    {/*        </div>*/}
+                                    {/*    </div>*/}
+                                    {/*</div>*/}
                                     <h4 className="text-white">
                                         <i className="fa fa-map-marker m-r-10 text-white"></i>
                                         Zexson Pro, New York, NY 254

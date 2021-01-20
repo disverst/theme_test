@@ -20,10 +20,10 @@ import FooterSection from './layouts/sections/event/footer'
 const Event = () => {
 
     useEffect(() => {
-        document.body.style.setProperty('--primary', '#e3154f')
-        document.body.style.setProperty('--secondary', '#321575')
-        document.body.style.setProperty('--light', '#321575')
-        document.body.style.setProperty('--dark', '#e3154f')
+        document.body.style.setProperty('--primary', '#000000')
+        document.body.style.setProperty('--secondary', '#270080')
+        document.body.style.setProperty('--light', '#011275c9')
+        document.body.style.setProperty('--dark', '#000000')
     })
 
     return (
