@@ -1,44 +1,7 @@
 export const MENUITEMS = [
-   {
-      title: 'Сервисы', type: 'link', children: [
-         { path: '/layouts/agency', title: 'Agency', type: 'link' },
-      ],
-   },
-   {
-      title: 'О нас', type: 'link', children: [
-         {
-            title: 'Blog Grid View', type: 'sub', children: [
-               { path: '/blog/blog-grid/column-no-sidebar', title: 'No Sidebar', type: 'link' },
-               { path: '/blog/blog-grid/column-left-sidebar', title: 'Left Sidebar', type: 'link' },
-               { path: '/blog/blog-grid/column-right-sidebar', title: 'Right Sidebar', type: 'link' },
-               { path: '/blog/blog-grid/classic-no-sidebar', title: 'Full Width No Sidebar', type: 'link' },
-               { path: '/blog/blog-grid/classic-right-sidebar', title: 'Full Width Right Sidebar', type: 'link' },
-               { path: '/blog/blog-grid/classic-left-sidebar', title: 'Full Width Left Sidebar', type: 'link' }
-            ]
-         },
-      ]
-   },
-   {
-      title: 'Процессы', type: 'link', children: [
-         { path: '/page/404', title: '404', type: 'link' },
-         { path: '/page/faq', title: 'FAQ', type: 'link' },
-         { path: '/page/typography', title: 'Typography', type: 'link' },
-         { path: '/page/maintenance', title: 'Maintenance', type: 'link' },
-         { path: '/page/about-us', title: 'About us', type: 'link' },
-
-         {
-            title: 'Team', type: 'sub', children: [
-               { path: '/page/team', title: 'Team', type: 'link' },
-               { path: '/page/team-grid', title: 'Team Grid', type: 'link' },
-               { path: '/page/team-list', title: 'Team List', type: 'link' }]
-         },
-         {
-            title: 'Comming Soon', type: 'sub', children: [
-
-               { path: '/page/commingsoon1', title: 'Comming Soon1', type: 'link' },
-               { path: '/page/commingsoon2', title: 'Comming Soon2', type: 'link' }]
-         }]
-   },
+   { title: 'Сервисы', type: 'link' },
+   { title: 'О нас', type: 'link' },
+   { title: 'Процессы', type: 'link' },
    {
       title: 'Отзывы', type: 'link', children: [
          {

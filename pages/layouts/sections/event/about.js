@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 const About = () => (
     <section className="event about bg bg-img bg-about">
-        <Container>
+        <Container id="about">
             <Row>
                 <Col md="10" className="offset-md-1">
                     <div className="title title3 only-title">

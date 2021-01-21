@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container,Row,Col,Form,FormGroup} from 'reactstrap'
 const Booking = () => {
-     return (
+    return (
     <section className="event booking set-relative" id="register">
         <div className="circle">
         </div>
