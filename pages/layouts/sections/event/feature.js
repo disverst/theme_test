@@ -11,7 +11,7 @@ const Feature = () => (
                             <img alt="title-logo" className="img-fluid" src="/assets/images/saas1/title-logo.png" />
                             <div className="main-title">
                                 <h2>
-                                    <span className="theme-color">Н</span>аши<span className="theme-color">С</span>ервисы
+                                    <span className="theme-color">Н</span>аши<span className="theme-color"> С</span>ервисы
                                 </h2>
                             </div>
                             <hr />

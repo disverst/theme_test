@@ -1,7 +1,6 @@
 import React from 'react'
 import {Container,Row,Col,Form,FormGroup} from 'reactstrap'
-const Booking = () =>
-{
+const Booking = () => {
      return (
     <section className="event booking set-relative" id="register">
         <div className="circle">
@@ -14,9 +13,11 @@ const Booking = () =>
                             <h2><span>Закажи</span> Свой сайт</h2>
                         </div>
                         <div className="sub-title">
-                            <p>Сделайте заказ <span>в этом месяце,</span> и получите
+                            <p>
+                                Сделайте заказ <span>в этом месяце,</span> и получите
                                 скидку <span>на разработку </span> и поддержку <span> сайта, </span>
-                                что позволит значительно сэкономить бюджет вашего прихода.</p>
+                                что позволит значительно сэкономить бюджет вашего прихода.
+                            </p>
                         </div>
                     </div>
                 </Col>

@@ -13,7 +13,7 @@ import TestimonialSection from './layouts/sections/event/testimonial'
 import BlogSection from './layouts/sections/event/blog'
 import FooterSection from './layouts/sections/event/footer'
 
-const Event = () => {
+const Index = () => {
 
     useEffect(() => {
         document.body.style.setProperty('--primary', '#000000')
@@ -52,4 +52,4 @@ const Event = () => {
     )
 }
 
-export default Event;
+export default Index;
