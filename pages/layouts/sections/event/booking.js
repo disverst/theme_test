@@ -11,12 +11,12 @@ const Booking = () =>
                 <Col md="10" className="offset-md-1">
                     <div className="title title3">
                         <div className="main-title">
-                            <h2><span>Book</span> Your Ticket</h2>
+                            <h2><span>Закажи</span> Свой сайт</h2>
                         </div>
                         <div className="sub-title">
-                            <p>Register now and reserve your seat for this <span>year's Unice,</span> the
-                                largest <span>web development</span> and online marketing <span>conference in UK, </span>
-                                covering everything you need to know in order to develop a successful online business.</p>
+                            <p>Сделайте заказ <span>в этом месяце,</span> и получите
+                                скидку <span>на разработку </span> и поддержку <span> сайта, </span>
+                                что позволит значительно сэкономить бюджет вашего прихода.</p>
                         </div>
                     </div>
                 </Col>
@@ -50,7 +50,7 @@ const Booking = () =>
                     </Form>
 
                     <div className="text-center">
-                        <a className="btn btn-default primary-btn m-0-auto" href="#">register</a>
+                        <a className="btn btn-default primary-btn m-0-auto" href="#">заказать</a>
                     </div>
                 </Col>
             </Row>

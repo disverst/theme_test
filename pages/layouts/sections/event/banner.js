@@ -1,6 +1,5 @@
 import React, {useRef} from 'react'
 import Typed from 'react-typed';
-import CountdownComponent from '../../../../containers/common/countdown';
 import {Container,Row,Col} from 'reactstrap'
 import { withRouter } from 'next/router'
 
@@ -32,24 +31,15 @@ const Banner = ({router}) => {
                                             </span>
                                         </h1>
                                     </div>
-                                    {/*<div className="wedding-time">*/}
-                                    {/*    <div>*/}
-                                    {/*        <div className="event-countdown">*/}
-                                    {/*            <CountdownComponent />*/}
-                                    {/*        </div>*/}
-                                    {/*    </div>*/}
-                                    {/*</div>*/}
-                                    <h4 className="text-white">
-                                        <i className="fa fa-map-marker m-r-10 text-white"></i>
-                                        Zexson Pro, New York, NY 254
-                                    </h4>
-                                    <h5 className="header-sub-text text-white">
-                                        <i className="fa fa-calendar m-r-10"></i>
-                                        01-04 March 2019
-                                    </h5>
+                                    <h2 className="offer-title">
+                                        Православная Веб-Студия
+                                    </h2>
+                                    <p className="offer-text">
+                                        Создание и оптимизация сайтов православного мира
+                                    </p>
                                     <div className="text-center link-horizontal">
                                         <a className=" btn btn-default back-white text-uppercase border-not" href="#">
-                                            view event details
+                                            Сделать заказ
                                         </a>
                                     </div>
                                 </div>

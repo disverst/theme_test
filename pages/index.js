@@ -32,11 +32,11 @@ const Event = () => {
 
             <BannerSection />
 
-            <BookingSection />
+            <FeatureSection />
 
             <AboutSection />
 
-            <FeatureSection />
+            <BookingSection />
 
             <SponserSection />
 
