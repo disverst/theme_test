@@ -4,10 +4,8 @@ import Head from 'next/head'
 // import Custom Components
 import Header from '../containers/common/header'
 import BannerSection from './layouts/sections/event/banner'
-import BookingSection from './layouts/sections/event/booking'
 import FeatureSection from './layouts/sections/event/feature'
 import AboutSection from './layouts/sections/event/about'
-import SponserSection from './layouts/sections/event/sponsor'
 import WorkSection from './layouts/sections/event/work'
 import TestimonialSection from './layouts/sections/event/testimonial'
 import BlogSection from './layouts/sections/event/blog'
@@ -35,10 +33,6 @@ const Index = () => {
             <FeatureSection />
 
             <AboutSection />
-
-            <BookingSection />
-
-            <SponserSection />
 
             <WorkSection />
 

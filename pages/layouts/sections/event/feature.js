@@ -27,7 +27,6 @@ const Feature = () => (
                             return (
                                 <Col lg="4" md="6"  className="service-container" key={i}>
                                     <div className="chat-box">
-                                        <img alt="stay-connected" src={item.img} />
                                         <div className="feature-content">
                                             <h4 className="service-heading">
                                                 {item.heading}

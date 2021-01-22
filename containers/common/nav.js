@@ -88,7 +88,7 @@ const Nav = () => {
                         return (
                             <li key={i}>
                                 {(menuItem.type === 'link') ?
-                                    <a href="{menuItem.path}">
+                                    <a href={menuItem.path}>
                                         <span>{menuItem.title}</span>
                                     </a>
                                     : ''}

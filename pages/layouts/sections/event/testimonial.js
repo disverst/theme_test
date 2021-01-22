@@ -10,24 +10,24 @@ var settings = {
     swipeToSlide: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    responsive: [ 
-        { 
-            breakpoint: 575, 
-            settings: { arrows: false } 
+    responsive: [
+        {
+            breakpoint: 575,
+            settings: { arrows: false }
         },
-        { 
-            breakpoint: 768, 
-            settings: { slidesToShow: 1 } 
-        }, 
-        { 
-            breakpoint: 1024, 
-            settings: { slidesToShow: 1 } 
+        {
+            breakpoint: 768,
+            settings: { slidesToShow: 1 }
+        },
+        {
+            breakpoint: 1024,
+            settings: { slidesToShow: 1 }
         }
     ]
 };
 
 const Testimonial = () => (
-    <section className="event testimonial set-relative bg bg-img bg-about">
+    <section className="event testimonial set-relative bg bg-img bg-about" id="testimonial">
         <Container>
             <Row>
                 <Col md="10" className="offset-md-1">

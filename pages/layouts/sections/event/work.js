@@ -15,7 +15,7 @@ const Work = () => {
                             <img alt="title-logo" className="img-fluid" src="/assets/images/saas1/title-logo.png" />
                             <div className="main-title">
                                 <h2>
-                                    <span className="theme-color">H</span>ow <span className="theme-color">I</span>t <span className="theme-color">W</span>ork
+                                    <span className="theme-color">О</span>писание <span className="theme-color">П</span>роцесса
                             </h2>
                             </div>
                             <hr />

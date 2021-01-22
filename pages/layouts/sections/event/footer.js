@@ -8,7 +8,7 @@ const Footer = () => (
                     <Col md="6" className="offset-md-3">
                         <div className="title title3 only-title">
                             <div className="main-title">
-                                <h2 className=" text-white">Contact Us</h2>
+                                <h2 className=" text-white">Контакты</h2>
                             </div>
                         </div>
                     </Col>
@@ -23,13 +23,13 @@ const Footer = () => (
                                 <Row>
                                     <Col sm="6">
                                         <FormGroup>
-                                            <Label htmlFor="name">Name *</Label>
+                                            <Label htmlFor="name">Имя *</Label>
                                             <Input className="form-control" id="name" type="text" />
                                         </FormGroup>
                                     </Col>
                                     <Col sm="6">
                                         <FormGroup>
-                                            <Label htmlFor="Phone">Phone *</Label>
+                                            <Label htmlFor="Phone">Телефон *</Label>
                                             <Input className="form-control" id="Phone" type="text" />
                                         </FormGroup>
                                     </Col>
@@ -50,7 +50,7 @@ const Footer = () => (
                                     <Label htmlFor="Message">Message *</Label>
                                     <Input className="form-control" id="Message" type="text" />
                                 </FormGroup>
-                                <a className="btn btn-default primary-btn m-0-auto">send</a>
+                                <a className="btn btn-default primary-btn m-0-auto">отправить</a>
                             </Form>
                         </div>
                     </Col>

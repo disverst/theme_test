@@ -38,7 +38,7 @@ const Banner = ({router}) => {
                                         Создание и оптимизация сайтов православного мира
                                     </p>
                                     <div className="text-center link-horizontal">
-                                        <a className=" btn btn-default back-white text-uppercase border-not" href="#">
+                                        <a className=" btn btn-default back-white text-uppercase border-not" href="#contact">
                                             Сделать заказ
                                         </a>
                                     </div>
@@ -51,7 +51,7 @@ const Banner = ({router}) => {
 
             {router.pathname !== '/elements/count-down' ?
             <div className="set-bottom set-abs">
-                <a className="center-content down" onClick={()=>scrollToRef('booking')} >
+                <a className="center-content down" onClick={()=>scrollToRef('feature')} >
                     <img alt="" className="scroll-down" src="/assets/images/event/image-down.png" />
                 </a>
             </div>

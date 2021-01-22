@@ -12,20 +12,20 @@ var settings = {
     swipeToSlide: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    responsive: [ 
-        { 
-            breakpoint: 768, 
-            settings: { slidesToShow: 1 } 
-        }, 
-        { 
-            breakpoint: 1440, 
-            settings: { slidesToShow: 2 } 
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: { slidesToShow: 1 }
+        },
+        {
+            breakpoint: 1440,
+            settings: { slidesToShow: 2 }
         }
     ]
 };
 
 const Blog = () => (
-    <section className="event blog set-relative">
+    <section className="event blog set-relative" id="news">
         <div className="circle"></div>
         <Container>
             <Row>
@@ -44,7 +44,7 @@ const Blog = () => (
                 <Col xs="12">
                     <Slider className="owl-carousel owl-theme" {...settings}>
                         {BlogData.length > 0?
-                            BlogData.map((item, index) => 
+                            BlogData.map((item, index) =>
                             <div className="item" key={`blog-${index}`}>
                                 <div className="img-container">
                                     <img alt="" className="img-fluid" src={item.photo} />
