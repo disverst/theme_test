@@ -32,7 +32,7 @@ const Blog = () => (
                 <Col md="10" className="offset-md-1">
                     <div className="title title3">
                         <div className="main-title">
-                            <h2><span>our </span>blog</h2>
+                            <h2><span>Новости</span> и проекты</h2>
                         </div>
                         <div className="sub-title">
                             <p>Register now and reserve your seat for this <span>year's Unice,</span> the
@@ -52,38 +52,45 @@ const Blog = () => (
                                     <div className="blog-info set-abs bottom-0">
                                         <div className="center-text flex m-b-20">
                                             <i className="fa fa-user-o m-r-5"></i>
-                                            <h6 className="m-r-25 font-blog">{item.user}</h6>
+                                            <h6 className="m-r-25 font-blog">
+                                                {item.user}
+                                            </h6>
                                             <i className="fa fa-calendar-o m-r-5 "></i>
-                                            <h6 className="font-blog">{item.date}</h6>
+                                            <h6 className="font-blog">
+                                                {item.date}
+                                            </h6>
                                         </div>
-                                        <h4 className="blog-text">{item.title}</h4>
-                                        <p className="borders-before"><span>Detais This Event</span></p>
-                                        <p className="small-font">{item.details}...</p>
-                                        <div className="social-list">
-                                            <ul>
-                                                <li>
-                                                    <a href="#">
-                                                        <div className="center-content">
-                                                            <i className="fa fa-facebook center-content"></i>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <div className="center-content">
-                                                            <i className="fa fa-twitter center-content"></i>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <div className="center-content">
-                                                            <i className="fa fa-google center-content"></i>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        <h4 className="blog-text">
+                                            {item.title}
+                                        </h4>
+                                        <p className="small-font">
+                                            {item.details}
+                                        </p>
+                                        {/*<div className="social-list">*/}
+                                        {/*    <ul>*/}
+                                        {/*        <li>*/}
+                                        {/*            <a href="#">*/}
+                                        {/*                <div className="center-content">*/}
+                                        {/*                    <i className="fa fa-facebook center-content"></i>*/}
+                                        {/*                </div>*/}
+                                        {/*            </a>*/}
+                                        {/*        </li>*/}
+                                        {/*        <li>*/}
+                                        {/*            <a href="#">*/}
+                                        {/*                <div className="center-content">*/}
+                                        {/*                    <i className="fa fa-twitter center-content"></i>*/}
+                                        {/*                </div>*/}
+                                        {/*            </a>*/}
+                                        {/*        </li>*/}
+                                        {/*        <li>*/}
+                                        {/*            <a href="#">*/}
+                                        {/*                <div className="center-content">*/}
+                                        {/*                    <i className="fa fa-google center-content"></i>*/}
+                                        {/*                </div>*/}
+                                        {/*            </a>*/}
+                                        {/*        </li>*/}
+                                        {/*    </ul>*/}
+                                        {/*</div>*/}
                                     </div>
                                 </div>
                             </div>

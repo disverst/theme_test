@@ -25,7 +25,7 @@ const About = () => (
                     <div className="abouts center-text">
                         <div className="format">
                             <div className="format-small-text">
-                                <h6 className="text-white borders-before text-uppercase"><span>Первая православная Веб-Студия</span></h6>
+                                <h6 className="text-white borders-before text-uppercase"><span>Православная Веб-Студия</span></h6>
                             </div>
                             <div className="format-head-text">
                                 <h3 className="about-font-header text-white">
@@ -38,9 +38,6 @@ const About = () => (
                                 </p>
                                 <p className="about-para">
                                     Мы создаем как небольшие одностраничные сайты визитки, для небольшого количества посетителей, так и высоконагруженные, многостраничные и сложные веб порталы для широкого круга людей.
-                                </p>
-                                <p className="about-para">
-                                    WebDelnica организовывает и участвует в благотворительных ИТ проектах. С 2020 года действует благотворительная акция “Всем приходам УПЦ бесплатный сайт визитка”, создается современный аналог электронного Часослова. Мы всегда готовы откликнутся на Ваше предложение, поучаствовать в Вашем благотворительном проекте.
                                 </p>
                             </div>
                         </div>
