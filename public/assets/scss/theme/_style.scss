@@ -8724,6 +8724,13 @@ event css start
   nav {
     padding: 0;
   }
+  .contacts-phone {
+    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1920 - 300)));
+
+  }
+  .contacts-margin {
+    margin-right: 10px;
+  }
   .animated-bg i {
     left: unset;
     right: 0;

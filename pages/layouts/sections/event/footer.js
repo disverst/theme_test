@@ -14,8 +14,8 @@ const Footer = () => (
                     </Col>
                     <Col xl="5" md="6" className="offset-xl-1 p-r-0 map">
                         <div className="iframe-container">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319"></iframe>
-                        </div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1269.152822658577!2d30.46393905815873!3d50.49126899188096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1611574903620!5m2!1sru!2sua"></iframe>                        </div>
                     </Col>
                     <Col xl="5" md="6" className="p-l-0 set-z-index form-footer">
                         <div className="bg-white">
@@ -24,6 +24,12 @@ const Footer = () => (
                                     <Col sm="6">
                                         <FormGroup>
                                             <Label htmlFor="name">Имя *</Label>
+                                            <Input className="form-control" id="name" type="text" />
+                                        </FormGroup>
+                                    </Col>
+                                    <Col sm="6">
+                                        <FormGroup>
+                                            <Label htmlFor="name">Фамилия *</Label>
                                             <Input className="form-control" id="name" type="text" />
                                         </FormGroup>
                                     </Col>
@@ -39,15 +45,9 @@ const Footer = () => (
                                             <Input className="form-control" id="Email" type="text" />
                                         </FormGroup>
                                     </Col>
-                                    <Col sm="6">
-                                        <FormGroup>
-                                            <Label htmlFor="Subject">Subject *</Label>
-                                            <Input className="form-control" id="Subject" type="text" />
-                                        </FormGroup>
-                                    </Col>
                                 </Row>
                                 <FormGroup>
-                                    <Label htmlFor="Message">Message *</Label>
+                                    <Label htmlFor="Message">Сообщение *</Label>
                                     <Input className="form-control" id="Message" type="text" />
                                 </FormGroup>
                                 <a className="btn btn-default primary-btn m-0-auto">отправить</a>
@@ -66,30 +66,22 @@ const Footer = () => (
                         <div className="link-horizontal d-flex align-content-lg-center h-100">
                             <ul>
                                 <li>
-                                    <a className="center-content" href="#">
-                                        <i className="fa fa-facebook"></i>
+                                    <a className="contacts-phone text-white" href="tel:+380683736815">
+                                        <i className="fa fa-phone contacts-margin"></i>
+                                        +380 068 373 68 15
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="center-content" href="#">
-                                        <i className="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="center-content" href="#">
-                                        <i className="fa fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="center-content" href="#">
-                                        <i className="fa fa-google"></i>
+                                    <a className="contacts-phone text-white" href="mailto:info@webdelnica.com">
+                                        <i className="fa fa-envelope contacts-margin"></i>
+                                        info@webdelnica.com
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </Col>
                     <Col md="6">
-                        <p className="copyright-text text-right text-white">© 2020 Unice. All Rights Reserved </p>
+                        <p className="copyright-text text-right text-white">© 2020 WebDelnica. Все права защищены </p>
                     </Col>
                 </Row>
             </Container>

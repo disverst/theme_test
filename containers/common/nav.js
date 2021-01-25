@@ -96,6 +96,12 @@ const Nav = () => {
                         )
                     })
                 }
+                <li>
+                    <a className="contacts-phone text-white d-none d-xl-block" href="tel:+380683736815">
+                        <i className="fa fa-phone contacts-margin"></i>
+                        +380 068 373 68 15
+                    </a>
+                </li>
             </ul>
         </div>
     )

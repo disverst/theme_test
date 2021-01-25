@@ -15,9 +15,13 @@ const Header = props => {
             <Container>
                 <Row>
                     <Col>
-                        <nav>
-                            <a className="m-r-auto" href="/">
+                        <nav className="justify-content-between">
+                            <a href="/">
                                 <img alt="" className="img-fluid" src="/assets/images/logo/1.png" />
+                            </a>
+                            <a className="contacts-phone text-white d-xl-none" href="tel:+380683736815">
+                                <i className="fa fa-phone contacts-margin"></i>
+                                +380 068 373 68 15
                             </a>
                             <div className="responsive-btn">
                                 <a className="toggle-nav" onClick={clickSidebar} >
