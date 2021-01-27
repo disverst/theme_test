@@ -33,7 +33,7 @@ const Testimonial = () => (
                 <Col md="10" className="offset-md-1">
                     <div className="title title3">
                         <div className="main-title">
-                            <h2 className=" text-white">testimonial</h2>
+                            <h2 className=" text-white">Отзывы</h2>
                         </div>
                         <div className="sub-title">
                             <p className="text-white">Register now and reserve your seat for this

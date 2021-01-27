@@ -15,7 +15,7 @@ const Work = () => {
                             <img alt="title-logo" className="img-fluid" src="/assets/images/saas1/title-logo.png" />
                             <div className="main-title">
                                 <h2>
-                                    <span className="theme-color">О</span>писание <span className="theme-color">П</span>роцесса
+                                    <span className="theme-color">О</span>писание <span className="theme-color">п</span>роцесса
                             </h2>
                             </div>
                             <hr />
@@ -51,6 +51,7 @@ const Work = () => {
                     {ContentData.map((item, i) => {
                         return (
                             <div className={`tab-pane fade ${item.title === nav ? 'show active' : ''}`} role="tabpanel" key={i}>
+                                <p>{item.desc}</p>
                                 <img alt="tab-image-1" className="img-fluid" src={item.img} />
                             </div>
                         )

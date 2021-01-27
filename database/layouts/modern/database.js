@@ -82,23 +82,28 @@ module.exports = {
     ContentData :[
         {
             img: '/assets/images/saas1/tab/Initializing.png',
-            title: 'Планирование'
+            title: 'Планирование',
+            desc: 'Понимание того, что вы хотите от своего сайта и какие у Вас требования к проекту'
         },
         {
             img: '/assets/images/saas1/tab/Add-instant.png',
-            title: 'Дизайн сайта'
+            title: 'Дизайн сайта',
+            desc: 'Создадим красивый, доступный дизайн сайта для вашего креативного проекта'
         },
         {
             img: '/assets/images/saas1/tab/Configuration.png',
-            title: 'Программироване'
+            title: 'Программироване',
+            desc: 'Мы разрабатываем для людей, которым нужно больше, чем простой сайт'
         },
         {
             img: '/assets/images/saas1/tab/Api.png',
-            title: 'Развертывание'
+            title: 'Развертывание',
+            desc: 'После успешного тестирования, продукт демонстрируется заказчику в рабочем режиме'
         },
         {
             img: '/assets/images/saas1/tab/Security.png',
-            title: 'Обслуживание'
+            title: 'Обслуживание',
+            desc: 'Это важный шаг, который гарантирует, что ваш сайт работает с эффективностью все время.'
         }
     ]
 }

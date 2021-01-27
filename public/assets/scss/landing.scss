@@ -854,14 +854,14 @@ html {
   .advance-feature {
     background-color: $featur-back;
     position: relative;
-    overflow: hidden;  
+    overflow: hidden;
 
     .features-container {
       margin-bottom: -20px;
       .d-flex {
         .col-12 {
           margin-bottom: -19px;
-        }      
+        }
     }
   }
     .core-back {
@@ -1423,7 +1423,7 @@ html {
   }
 
   @media (width: 1440px) and (height: 900px) {
-    
+
     .home-section {
       .inner-slide3 {
         padding-top: 10px;

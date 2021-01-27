@@ -86,21 +86,12 @@ body {
 h1,
 h2 {
   font-family: "Capriola", sans-serif;
-  text-transform: capitalize;
 }
 h4,
 h5,
 li {
   margin-top: 0;
   margin-bottom: 0;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-transform: capitalize;
 }
 h2,
 h3,
@@ -7024,7 +7015,7 @@ tap to top css end
     font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1920 - 300)));
     margin-top: 0;
     letter-spacing: 0.05em;
-    margin-bottom: -7px;
+    margin-bottom: 10px;
   }
   span {
     text-transform: none;
@@ -8651,14 +8642,6 @@ event css start
   li {
     margin-top: 0;
     margin-bottom: 0;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    text-transform: capitalize;
   }
   h2,
   h3,
