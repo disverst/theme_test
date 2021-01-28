@@ -37,7 +37,7 @@ const Feature = () => (
                                             </h4>
                                             <hr />
                                             <p>
-                                                {/*{item.desc}*/}
+                                                {item.desc}
                                             </p>
                                         </div>
                                     </div>

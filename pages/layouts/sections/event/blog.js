@@ -4,7 +4,7 @@ import {Container,Row,Col} from 'reactstrap'
 import {BlogData} from '../../../../database/layouts/event/database';
 
 var settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     autoplay: true,
     speed: 480,
@@ -49,7 +49,7 @@ const Blog = () => (
                                 <div className="img-container">
                                     <img alt="" className="img-fluid" src={item.photo} />
                                     <div className="overlay"></div>
-                                    <div className="blog-info set-abs bottom-0">
+                                    <div className="blog-info set-abs">
                                         <div className="center-text flex m-b-20">
                                             <i className="fa fa-user-o m-r-5"></i>
                                             <h6 className="m-r-25 font-blog">
@@ -66,31 +66,6 @@ const Blog = () => (
                                         <p className="small-font">
                                             {item.details}
                                         </p>
-                                        {/*<div className="social-list">*/}
-                                        {/*    <ul>*/}
-                                        {/*        <li>*/}
-                                        {/*            <a href="#">*/}
-                                        {/*                <div className="center-content">*/}
-                                        {/*                    <i className="fa fa-facebook center-content"></i>*/}
-                                        {/*                </div>*/}
-                                        {/*            </a>*/}
-                                        {/*        </li>*/}
-                                        {/*        <li>*/}
-                                        {/*            <a href="#">*/}
-                                        {/*                <div className="center-content">*/}
-                                        {/*                    <i className="fa fa-twitter center-content"></i>*/}
-                                        {/*                </div>*/}
-                                        {/*            </a>*/}
-                                        {/*        </li>*/}
-                                        {/*        <li>*/}
-                                        {/*            <a href="#">*/}
-                                        {/*                <div className="center-content">*/}
-                                        {/*                    <i className="fa fa-google center-content"></i>*/}
-                                        {/*                </div>*/}
-                                        {/*            </a>*/}
-                                        {/*        </li>*/}
-                                        {/*    </ul>*/}
-                                        {/*</div>*/}
                                     </div>
                                 </div>
                             </div>

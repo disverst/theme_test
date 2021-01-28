@@ -16,28 +16,22 @@ const About = () => (
                         <div className="announcer-img">
                             <img alt="" className="img-fluid" src="/assets/images/event/1.jpg" />
                             <img alt="" className="img-fluid" src="/assets/images/event/1.jpg" />
-                            <img alt="" className="img-fluid" data-tilt data-tilt-max="3" data-tilt-perspective="500"
-                                data-tilt-speed="400" src="/assets/images/event/l3.jpg" />
+                            <img alt="" className="img-fluid" src="/assets/images/event/l3.jpg" />
                         </div>
                     </div>
                 </Col>
-                <Col xl="5" lg="7" md="6" className="offset-xl-1">
+                <Col xl="6" lg="7" md="6" className="offset-xl-1">
                     <div className="abouts center-text">
                         <div className="format">
-                            <div className="format-small-text">
-                                <h6 className="text-white borders-before text-uppercase"><span>Православная Веб-Студия</span></h6>
-                            </div>
-                            <div className="format-head-text">
-                                <h3 className="about-font-header text-white">
-                                    Web программирование и разработка сайтов
-                                </h3>
-                            </div>
                             <div className="format-sub-text">
                                 <p className="about-para">
-                                    Киевская студия WebDelnica, предоставляет комплексные IT услуги для православной церкви. Узконаправленность нашей деятельности позволяет нам предоставлять максимально качественный продукт в короткие сроки и точно реализовать, все Ваши пожелания и требования к сайту.
+                                    Киевская студия WebDelnica, предоставляет комплексные IT услуги для православных поместных автокефальных и автономных церквей. Узконаправленность нашей деятельности позволяет нам предоставлять максимально качественный продукт в короткие сроки и точно реализовать, все Ваши пожелания и требования к сайту.
                                 </p>
                                 <p className="about-para">
                                     Мы создаем как небольшие одностраничные сайты визитки, для небольшого количества посетителей, так и высоконагруженные, многостраничные и сложные веб порталы для широкого круга людей.
+                                </p>
+                                <p className="about-para">
+                                    WebDelnica организовывает и участвует в благотворительных IT проектах. С 2020 года действует благотворительная акция: "Всем приходам УПЦ бесплатный сайт визитка", создается современный аналог электронного Часослова. Мы всегда готовы откликнутся на Ваше предложение и поучаствовать в благотворительном проекте.
                                 </p>
                             </div>
                         </div>

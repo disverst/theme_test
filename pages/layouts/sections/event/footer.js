@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col, Form, FormGroup, Input, Label } from 'reactstrap'
 const Footer = () => (
     <React.Fragment>
-        <footer className="event contact set-relative bg bg-img bg-about p-b-0" id="contact">
+        <footer className="event contact set-relative bg bg-img3 bg-about p-b-0" id="contact">
             <Container className="p-b-150">
                 <Row>
                     <Col md="6" className="offset-md-3">
