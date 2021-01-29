@@ -1477,7 +1477,214 @@ screenshot section end
 /**************************
  service section end
 *************************/
-
+/**************************
+ 12. copyright section start
+*************************/
+.copyright {
+  padding: 18px 0;
+  background: $primary;
+  .copyright-text {
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1.2;
+    &.op-text {
+      opacity: 0.5;
+    }
+    &.center-c-t {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+  }
+  .fa-heart {
+    color: $heart;
+  }
+  .link-horizontal {
+    ul {
+      li {
+        padding-right: 30px;
+        a {
+          transition: 0.5s;
+          color: $white;
+          &.op-text {
+            transition: 0.5s;
+            &:hover {
+              transition: 0.5s;
+              opacity: 1;
+            }
+          }
+          &:hover {
+            transition: 0.5s;
+            opacity: 0.5;
+          }
+        }
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+  &.app2 {
+    background: $copyright-app2;
+    .copyright-text {
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+  }
+  &.agency {
+    background: $copyright-agency;
+    &.inner-page {
+      background: $copy-bg;
+    }
+  }
+  &.event {
+    background: rgba(0, 0, 0, 0.05);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 5;
+    padding: 15px;
+    .link-horizontal {
+      ul {
+        li {
+          a {
+            i {
+              font-size: 20px;
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.wedding {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    .link-horizontal {
+      a {
+        i {
+          font-size: 20px;
+        }
+      }
+      ul {
+        &.link {
+          li {
+            a {
+              text-transform: uppercase;
+              transition: 0.5s;
+              &:hover {
+                transition: 0.5s;
+                opacity: 1;
+                color: $light;
+              }
+            }
+          }
+        }
+      }
+    }
+    .copyright-text {
+      font-weight: 500;
+    }
+  }
+  &.yoga,
+  &.resume,
+  &.creative {
+    padding: 40px 0;
+    hr {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      background: $white;
+    }
+    .link-horizontal {
+      ul {
+        li {
+          text-transform: uppercase;
+        }
+      }
+      &.social-link {
+        margin-bottom: 20px;
+        ul {
+          li {
+            padding-right: 45px;
+            &:last-child {
+              padding-right: 0;
+            }
+            a {
+              i {
+                font-size: 20px;
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.resume {
+    background: $bg-light;
+    .link-horizontal {
+      ul {
+        li {
+          text-transform: uppercase;
+          a {
+            color: $primary;
+            font-weight: 500;
+          }
+        }
+      }
+      &.social-link {
+        ul {
+          li {
+            a {
+              i {
+                color: $primary;
+              }
+            }
+          }
+        }
+      }
+    }
+    .copyright-text {
+      color: $copy-text-resume;
+      font-weight: 500;
+    }
+  }
+  &.gym {
+    background: $copy-bg;
+  }
+  &.music {
+    background: $copy-bg;
+  }
+  &.saas1 {
+    background: $copyright-saas1;
+  }
+  &.wedding {
+    padding: 38px 0;
+    background: $white;
+    .link-horizontal {
+      ul {
+        li {
+          a {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+  &.light {
+    &.event {
+      background: rgba(0, 0, 0, 0.56);
+    }
+  }
+}
+/**************************
+ copyright section end
+*************************/
 /**************************
  13. header section start
 *************************/
