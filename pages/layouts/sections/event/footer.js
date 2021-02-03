@@ -10,12 +10,19 @@ const Footer = () => (
                             <div className="main-title">
                                 <h2 className=" text-white">Контакты</h2>
                             </div>
+                            <div className="sub-title">
+                                <p className="text-white">
+                                    Мы предлагаем различные виды интеграции, которые отвечают вашим индивидуальным потребностям
+                                </p>
+                            </div>
                         </div>
                     </Col>
                     <Col xl="5" md="6" className="offset-xl-1 p-r-0 map">
                         <div className="iframe-container">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1269.152822658577!2d30.46393905815873!3d50.49126899188096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1611574903620!5m2!1sru!2sua"></iframe>                        </div>
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1269.152822658577!2d30.46393905815873!3d50.49126899188096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1611574903620!5m2!1sru!2sua">
+                            </iframe>
+                        </div>
                     </Col>
                     <Col xl="5" md="6" className="p-l-0 set-z-index form-footer">
                         <div className="bg-white">
@@ -53,6 +60,13 @@ const Footer = () => (
                                 <a className="btn btn-default primary-btn m-0-auto">отправить</a>
                             </Form>
                         </div>
+                    </Col>
+                    <Col md="6" className="offset-md-3">
+                            <div className="sub-title text-center">
+                                <p className="text-white m-t-30 m-b-0">
+                                    Если у Вас возникли дополнительные вопросы или Вы желаете начать разработку сайта или приложения, просим Вас связатся с нами любым удобным для Вас способом
+                                </p>
+                            </div>
                     </Col>
                 </Row>
             </Container>

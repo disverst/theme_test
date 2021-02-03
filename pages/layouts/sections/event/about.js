@@ -9,6 +9,11 @@ const About = () => (
                         <div className="main-title">
                             <h2 className=" text-white">О нас</h2>
                         </div>
+                        <div className="sub-title">
+                            <p className="text-white">
+                                Всевозможно старайся о том, чтоб славился (через тебя) Отец твой, Иже есть на небесах Мф. (5:16)
+                            </p>
+                        </div>
                     </div>
                 </Col>
                 <Col lg="4" md="6" className="offset-lg-1">

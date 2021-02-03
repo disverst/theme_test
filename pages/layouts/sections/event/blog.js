@@ -7,10 +7,10 @@ var settings = {
     dots: true,
     infinite: true,
     autoplay: true,
-    speed: 480,
-    arrows: false,
+    speed: 2000,
+    arrows: true,
     swipeToSlide: true,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
         {
@@ -35,9 +35,9 @@ const Blog = () => (
                             <h2><span>Новости</span> и проекты</h2>
                         </div>
                         <div className="sub-title">
-                            <p>Register now and reserve your seat for this <span>year's Unice,</span> the
-                                largest <span>web development</span> and online marketing <span>conference in UK,</span>
-                                covering everything you need to know in order to develop a successful online business.</p>
+                            <p>
+                                Последние новости православной Веб-Студи WebDelnica, а также проекты в которых мы участвуем
+                            </p>
                         </div>
                     </div>
                 </Col>
@@ -51,10 +51,6 @@ const Blog = () => (
                                     <div className="overlay"></div>
                                     <div className="blog-info set-abs">
                                         <div className="center-text flex m-b-20">
-                                            <i className="fa fa-user-o m-r-5"></i>
-                                            <h6 className="m-r-25 font-blog">
-                                                {item.user}
-                                            </h6>
                                             <i className="fa fa-calendar-o m-r-5 "></i>
                                             <h6 className="font-blog">
                                                 {item.date}

@@ -20,8 +20,9 @@ const Work = () => {
                             </div>
                             <hr />
                             <div className="sub-title">
-                                <p className="p-padding">Guide to setup and configuration. You can present below a guide and a
-                            description of how your system configuration works and add some animated screens.</p>
+                                <p className="p-padding">
+                                    Гарантией создания качественного сайта может стать правильная и последовательная работа по разработке сайта плюс отточенная до мелочей работа на каждой стадии его создания
+                                </p>
                             </div>
                         </div>
                     </Col>
