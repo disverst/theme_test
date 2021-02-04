@@ -44,22 +44,21 @@ const Work = () => {
                                 })
                             }
                         </ul>
+                        <div className="work-tab-bg work-content p-t-50">
+                            <div className="tab-content text-center" id="pills-tabContent">
+                                {ContentData.map((item, i) => {
+                                    return (
+                                        <div className={`tab-pane fade ${item.title === nav ? 'show active' : ''}`} role="tabpanel" key={i}>
+                                            <p>{item.desc}</p>
+                                            <img alt="tab-image-1" className="img-fluid" src={item.img} />
+                                        </div>
+                                    )
+                                })}
+                            </div>
+                        </div>
                     </Col>
                 </Row>
             </Container>
-            <div className="work-tab-bg work-content p-t-50">
-                <div className="tab-content text-center" id="pills-tabContent">
-                    {ContentData.map((item, i) => {
-                        return (
-                            <div className={`tab-pane fade ${item.title === nav ? 'show active' : ''}`} role="tabpanel" key={i}>
-                                <p>{item.desc}</p>
-                                <img alt="tab-image-1" className="img-fluid" src={item.img} />
-                            </div>
-                        )
-                    })}
-                </div>
-            </div>
-
         </section>
     )
 }

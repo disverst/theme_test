@@ -12,7 +12,7 @@ var settings = {
     slidesToScroll: 1,
     responsive: [
         {
-            breakpoint: 575,
+            breakpoint: 768,
             settings: { arrows: false }
         },
         {

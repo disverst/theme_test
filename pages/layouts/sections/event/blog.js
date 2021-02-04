@@ -6,7 +6,7 @@ import {BlogData} from '../../../../database/layouts/event/database';
 var settings = {
     dots: true,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     speed: 2000,
     arrows: true,
     swipeToSlide: true,
@@ -14,7 +14,7 @@ var settings = {
     slidesToScroll: 1,
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 1200,
             settings: { slidesToShow: 1 }
         },
         {

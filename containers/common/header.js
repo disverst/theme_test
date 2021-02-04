@@ -19,7 +19,7 @@ const Header = props => {
                             <a href="/">
                                 <img alt="" className="img-fluid" src="/assets/images/logo/1.png" />
                             </a>
-                            <a className="contacts-phone text-white d-xl-none" href="tel:+380683736815">
+                            <a className="contacts-phone text-white d-lg-none" href="tel:+380683736815">
                                 <i className="fa fa-phone contacts-margin"></i>
                                 +380 068 373 68 15
                             </a>

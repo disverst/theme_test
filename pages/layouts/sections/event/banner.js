@@ -38,7 +38,7 @@ const Banner = ({router}) => {
                                         Создание и оптимизация сайтов православного мира
                                     </p>
                                     <div className="text-center link-horizontal">
-                                        <a className=" btn btn-default back-white text-uppercase border-not" href="#contact">
+                                        <a className=" btn btn-default back-white text-uppercase border-not" href="tel:+380683736815">
                                             Сделать заказ
                                         </a>
                                     </div>

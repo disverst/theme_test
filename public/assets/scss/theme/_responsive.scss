@@ -6898,6 +6898,9 @@
   }
   .blog {
     .img-container {
+      img {
+        height: 490px;
+      }
       .blog-info {
         padding: 15px;
         .blog-text {
@@ -8383,7 +8386,7 @@
         padding: 0 15px;
       }
       .iframe-container {
-        height: 250px;
+        height: 500px;
       }
       .form-footer {
         padding-left: 15px;
