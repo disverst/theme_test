@@ -6,9 +6,9 @@ import {BlogData} from '../../../../database/layouts/event/database';
 var settings = {
     dots: true,
     infinite: true,
-    autoplay: false,
-    speed: 2000,
-    arrows: true,
+    autoplay: true,
+    speed: 10000,
+    arrows: false,
     swipeToSlide: true,
     slidesToShow: 2,
     slidesToScroll: 1,
