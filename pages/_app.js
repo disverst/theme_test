@@ -64,7 +64,7 @@ function MyFunctionComponent({ children }) {
   return (
     <>
       <Head>
-        <title>Unice</title>
+        <title>WebDelnica</title>
       </Head>
       {loader &&
         <div className="loader-wrapper">

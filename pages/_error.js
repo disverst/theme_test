@@ -35,13 +35,13 @@ const Error = ({ statusCode }) => {
                     </Container>
                 </div>
                 <div className="objects">
-                    <img alt="object_rocket" className="object_rocket" src="/assets/images/404/rocket.svg" />
+                    <img alt="object_rocket" className="object_rocket" src="/assets/images/404/orthodox-church.png" />
                     <div className="earth-moon">
                         <img alt="object_earth" className="object_earth" src="/assets/images/404/earth.svg" />
                         <img alt="object_moon" className="object_moon" src="/assets/images/404/moon.svg" />
                     </div>
                     <div className="box_astronaut">
-                        <img alt="object_astronaut" className="object_astronaut" src="/assets/images/404/astronaut.svg" />
+                        <img alt="object_astronaut" className="object_astronaut" src="/assets/images/404/orthodox-krest.png" />
                     </div>
                 </div>
                 <div className="glowing_stars">
