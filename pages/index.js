@@ -1,7 +1,6 @@
-import React, { Fragment, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import '../public/assets/scss/landing.scss'
 import Head from 'next/head'
-// import Custom Components
 import Header from '../containers/common/header'
 import BannerSection from './layouts/sections/event/banner'
 import FeatureSection from './layouts/sections/event/feature'

@@ -88,7 +88,7 @@ function MyFunctionComponent({ children }) {
   )
 }
 
-export default function MyApp({ Component, pageProps, graphql }) {
+export default function MyApp({ Component, pageProps }) {
   return (
     <div>
       <MyFunctionComponent>
