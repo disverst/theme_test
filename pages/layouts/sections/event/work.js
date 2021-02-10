@@ -16,7 +16,7 @@ const Work = () => {
                             <div className="main-title">
                                 <h2>
                                     <span className="theme-color">О</span>писание <span className="theme-color">п</span>роцесса
-                            </h2>
+                                </h2>
                             </div>
                             <hr />
                             <div className="sub-title">
@@ -33,8 +33,8 @@ const Work = () => {
                                     return (
                                         <li className={`nav-item  text-center ${item.title === nav ? 'active' : ''} `} key={i}>
                                             <a aria-selected="true" className={`nav-link ${'work' == item.title ? 'active show' : ''}`} data-toggle="pill"
-                                                onClick={() => toggle(item.title)}
-                                                role="tab">
+                                               onClick={() => toggle(item.title)}
+                                               role="tab">
                                                 <img alt="tab-image-1" src={item.img} />
                                                 <h6>{item.title}</h6>
                                                 <span></span>
@@ -49,8 +49,10 @@ const Work = () => {
                                 {ContentData.map((item, i) => {
                                     return (
                                         <div className={`tab-pane fade ${item.title === nav ? 'show active' : ''}`} role="tabpanel" key={i}>
-                                            <p>{item.desc}</p>
+                                            <div className="work-image">
                                             <img alt="tab-image-1" className="img-fluid" src={item.img} />
+                                            </div>
+                                            <div className="work-tab-p">{item.desc}</div>
                                         </div>
                                     )
                                 })}
