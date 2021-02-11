@@ -49,10 +49,8 @@ const Work = () => {
                                 {ContentData.map((item, i) => {
                                     return (
                                         <div className={`tab-pane fade ${item.title === nav ? 'show active' : ''}`} role="tabpanel" key={i}>
-                                            <div className="work-image">
-                                            <img alt="tab-image-1" className="img-fluid" src={item.img} />
-                                            </div>
-                                            <div className="work-tab-p">{item.desc}</div>
+                                            <div className="work-tab-p d-flex align-items-center">{item.desc}</div>
+                                            <img alt="tab-image-1" className="img-fluid work-image" src={item.img} />
                                         </div>
                                     )
                                 })}
