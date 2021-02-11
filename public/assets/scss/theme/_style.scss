@@ -1415,7 +1415,7 @@ header {
     background-position: bottom;
     height: 100vh;
     &.header3 {
-      background-image: url("../../images/event/event_slider.jpg");
+      background-image: url("../../../assets/images/event/event_slider.jpg");
       background-attachment: fixed;
       background-position: 0 0;
       background-repeat: repeat;
@@ -2218,7 +2218,7 @@ tap to top css end
     }
   }
   &.howitwork {
-    background-image: url("../../images/saas1/work-bg.png");
+    background-image: url("../../../assets/images/saas1/work-bg.png");
     background-size: cover;
     .work-tab {
       .nav-pills {
@@ -2437,13 +2437,13 @@ event css start
     }
   }
   &.bg-img {
-    background-image: url("../../images/event/bg1.jpg");
+    background-image: url("../../../assets/images/event/bg1.jpg");
   }
   &.bg-img2 {
-    background-image: url("../../images/event/h3-bg.jpg");
+    background-image: url("../../../assets/images/event/h3-bg.jpg");
   }
   &.bg-img3 {
-    background-image: url("../../images/event/counter-bg.jpg");
+    background-image: url("../../../assets/images/event/counter-bg.jpg");
     background-size: cover;
     background-position: center center;
   }
@@ -2810,7 +2810,7 @@ error css start
   }
 
   .stars {
-    background: url("../../images/404/overlay_stars.svg");
+    background: url("../../../assets/images/404/overlay_stars.svg");
     background-repeat: repeat;
     background-size: contain;
     background-position: left top;
