@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Form, FormGroup, Input, Label } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 const Footer = () => (
     <React.Fragment>
         <footer className="event contact set-relative bg bg-img3 bg-about p-b-0" id="contact">

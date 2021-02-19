@@ -2164,10 +2164,9 @@ tap to top css end
         margin-right: auto;
       }
       .work-tab-p {
-        font-size: calc(20px + (33 - 20) * ((100vw - 300px) / (1920 - 300)));
+        font-size: calc(18px + (35 - 18) * ((100vw - 300px) / (1920 - 300)));
         color: #ffffff;
-        font-weight: 700;
-        text-shadow: 2px 2px 5px #353535;
+        font-weight: 500;
 
         position: absolute;
         top: 0px;
