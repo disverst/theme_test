@@ -65,27 +65,32 @@ module.exports = {
         {
             img: '/assets/images/saas1/tab/Initializing.png',
             title: 'Планирование',
+            class: 'work-tab-p work-tab-p__1 text-right',
             desc: 'Понимание того, что вы хотите от своего сайта и какие у Вас требования к проекту'
         },
         {
             img: '/assets/images/saas1/tab/Add-instant.png',
             title: 'Дизайн сайта',
+            class: 'work-tab-p work-tab-p__2  text-center',
             desc: 'Создадим красивый, доступный дизайн сайта для вашего креативного проекта'
         },
         {
             img: '/assets/images/saas1/tab/Configuration.png',
             title: 'Программироване',
+            class: 'work-tab-p work-tab-p__3 text-right',
             desc: 'Мы разрабатываем для людей, которым нужно больше, чем простой сайт'
         },
         {
             img: '/assets/images/saas1/tab/Api.png',
             title: 'Развертывание',
+            class: 'work-tab-p work-tab-p__4 text-left',
             desc: 'После успешного тестирования, продукт демонстрируется заказчику в рабочем режиме'
         },
         {
             img: '/assets/images/saas1/tab/Security.png',
             title: 'Обслуживание',
-            desc: 'Это важный шаг, который гарантирует, что ваш сайт работает с эффективностью все время.'
+            class: 'work-tab-p work-tab-p__5 text-center',
+            desc: 'Это важный шаг, который гарантирует, что ваш сайт работает с эффективностью все время'
         }
     ]
 }

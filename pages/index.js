@@ -9,6 +9,7 @@ import WorkSection from './layouts/sections/event/work'
 import TestimonialSection from './layouts/sections/event/testimonial'
 import BlogSection from './layouts/sections/event/blog'
 import FooterSection from './layouts/sections/event/footer'
+import TestSection from './layouts/sections/event/test'
 
 const Index = () => {
 
@@ -40,6 +41,8 @@ const Index = () => {
             <BlogSection />
 
             <FooterSection />
+
+            <TestSection />
 
         </div>
     )

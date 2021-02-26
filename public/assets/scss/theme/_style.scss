@@ -2164,8 +2164,9 @@ tap to top css end
         margin-right: auto;
       }
       .work-tab-p {
-        font-size: calc(18px + (35 - 18) * ((100vw - 300px) / (1920 - 300)));
-        color: #ffffff;
+        font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1920 - 300)));
+        color: #000000;
+        text-shadow: 1px 3px 3px #04040452;
         font-weight: 500;
 
         position: absolute;
@@ -2173,10 +2174,82 @@ tap to top css end
         left: 0px;
         width: 100%;
         height: 100%;
-        background-color: #001c82a1;
-        border-radius: 10px;
-        padding: 10px;
-
+        padding: 60px 15px 10px 64px;
+      }
+      .work-tab-p__1 {
+        padding: 63px 50px 0px 155px;
+      }
+      @media screen and (max-width: 470px) {
+        .work-tab-p__1 {
+          padding: 50px 10px 0px 150px;
+        }
+      }
+      @media screen and (max-width: 422px) {
+        .work-tab-p__1 {
+          padding: 50px 10px 0px 100px;
+        }
+      }
+      @media screen and (max-width: 404px) {
+        .work-tab-p__1 {
+          padding: 50px 10px 0px 73px;
+        }
+      }
+      .work-tab-p__2 {
+        padding: 63px 50px 0px 50px;
+      }
+      .work-tab-p__3 {
+        padding: 150px 85px 10px 30px;
+      }
+      @media screen and (max-width: 470px) {
+        .work-tab-p__3 {
+          padding: 135px 40px 10px 30px;
+        }
+      }
+      @media screen and (max-width: 410px) {
+        .work-tab-p__3 {
+          padding: 135px 33px 10px 90px;
+        }
+      }
+      .work-tab-p__4 {
+        padding: 163px 170px 10px 30px;
+      }
+      @media screen and (max-width: 475px) {
+        .work-tab-p__4 {
+          padding: 160px 133px 10px 30px;
+        }
+      }
+      @media screen and (max-width: 437px) {
+        .work-tab-p__4 {
+          padding: 137px 105px 10px 30px;
+        }
+      }
+      @media screen and (max-width: 402px) {
+        .work-tab-p__4 {
+          padding: 115px 100px 10px 30px;
+        }
+      }
+      @media screen and (max-width: 370px) {
+        .work-tab-p__4 {
+          padding: 110px 80px 10px 25px;
+        }
+      }
+      .work-tab-p__5 {
+        padding: 286px 30px 0px 30px;
+      }
+      @media screen and (max-width: 520px) {
+        .work-tab-p__5 {
+          padding: 257px 30px 0px 30px;
+        }
+      }
+      @media screen and (max-width: 420px) {
+      .work-tab-p__5 {
+        padding: 190px 30px 0px 30px;
+      }
+    }
+      @media screen and (max-width: 370px) {
+        .work-tab-p__5 {
+          padding: 180px 30px 0px 30px;
+        }
       }
       .nav-pills {
         .nav-item {
