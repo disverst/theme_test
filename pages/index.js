@@ -10,6 +10,7 @@ import TestimonialSection from './layouts/sections/event/testimonial'
 import BlogSection from './layouts/sections/event/blog'
 import FooterSection from './layouts/sections/event/footer'
 import TestSection from './layouts/sections/event/test'
+import Test2Section from "./layouts/sections/event/test2";
 
 const Index = () => {
 
@@ -43,6 +44,8 @@ const Index = () => {
             <FooterSection />
 
             <TestSection />
+
+            <Test2Section />
 
         </div>
     )

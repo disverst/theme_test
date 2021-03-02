@@ -1,18 +1,6 @@
-import React from 'react'
-import {useState, useEffect} from 'react'
 import { Container, Row } from 'reactstrap'
 
-export default function Test ( ) {
-
-    const [data, setData] = useState([])
-        useEffect( () => {
-             async function load() {
-                 const response = await fetch('https://reqres.in/api/products/4')
-                 const json = await response.json()
-                 setData(json)
-             }
-             load()
-        }, [])
+export default function Test2 ( {data} ) {
     return (
         <React.Fragment>
             <footer>
@@ -27,12 +15,14 @@ export default function Test ( ) {
         </React.Fragment>
     )
 }
-//
-// Test.getInitialProps = async (ctx) => {
-//     const res = await fetch('http://localhost:4200/data')
-//     const data = await res.json()
-//     return {data}
-// }
+
+Test2.getInitialProps = async (ctx) => {
+    const res = await fetch('http://localhost:4200/data')
+    const data = await res.json()
+    return {
+        data
+    }
+}
 
 
 // Test.getInitialProps = async (ctx) => {

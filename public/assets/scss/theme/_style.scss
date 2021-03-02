@@ -2165,7 +2165,7 @@ tap to top css end
       }
       .work-tab-p {
         font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1920 - 300)));
-        color: #000000;
+        color:  var(--secondary);
         text-shadow: 1px 3px 3px #04040452;
         font-weight: 500;
 
